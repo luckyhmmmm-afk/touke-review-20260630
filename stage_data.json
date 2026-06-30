@@ -1,0 +1,5892 @@
+[
+  {
+    "metrics": {
+      "name": "美满净界个护电器",
+      "cost_total_wan": 208.29,
+      "daily_cost_yuan": 148782.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 36.19047619047619,
+      "quanku_open": true,
+      "max3_pct": 83.84615384615385,
+      "mp4m": null,
+      "dcid_per_acc": 304.2,
+      "ad_per_acc": 31.6,
+      "rep_pct": 41.70643452724317,
+      "acc_n": 16.0,
+      "cgr": 1.069244893277401,
+      "roi": 2.1657784348739186,
+      "qiliang_pct": 51.851851851851855,
+      "ctr": 3.2538689838449146,
+      "fast3s": 49.654545557334636,
+      "funnel_in": 2.730766848651346,
+      "funnel_click": 68.78828958002033,
+      "tid_n": 19069,
+      "ad_n": 505,
+      "dcid_n": 4868,
+      "cpa": 199.07354000264772,
+      "bid": 84.71117917310974,
+      "funnel_order": 13.025600212229739
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 36.19047619047619,
+        "val_txt": "36%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 83.84615384615385,
+        "val_txt": "84%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 304.2,
+        "val_txt": "304",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 31.6,
+        "val_txt": "31.6",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 41.70643452724317,
+        "val_txt": "41.7%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 16.0,
+        "val_txt": "16",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.069244893277401,
+        "val_txt": "1.07",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 51.851851851851855,
+        "val_txt": "52%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 3.2538689838449146,
+        "val_txt": "3.25%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 49.654545557334636,
+        "val_txt": "49.7%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.730766848651346,
+        "val_txt": "2.73%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 68.78828958002033,
+        "val_txt": "68.8%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 4,
+    "good_count": 11,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "冠轩家用清洁电器",
+      "cost_total_wan": 66.67,
+      "daily_cost_yuan": 47624.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 53.37423312883436,
+      "quanku_open": true,
+      "max3_pct": 56.94050991501416,
+      "mp4m": null,
+      "dcid_per_acc": 132.5,
+      "ad_per_acc": 17.4,
+      "rep_pct": 31.222136817832435,
+      "acc_n": 31.0,
+      "cgr": 1.1430181277299818,
+      "roi": 2.886630568959281,
+      "qiliang_pct": 30.666666666666668,
+      "ctr": 7.33377501178099,
+      "fast3s": 40.75579994304116,
+      "funnel_in": 6.458590906640653,
+      "funnel_click": 61.205643207150935,
+      "tid_n": 13010,
+      "ad_n": 538,
+      "dcid_n": 4107,
+      "cpa": 263.7556530080855,
+      "bid": 79.30843447054156,
+      "funnel_order": 13.900497074737165
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 53.37423312883436,
+        "val_txt": "53%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 56.94050991501416,
+        "val_txt": "57%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 132.5,
+        "val_txt": "132",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 17.4,
+        "val_txt": "17.4",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 31.222136817832435,
+        "val_txt": "31.2%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 31.0,
+        "val_txt": "31",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1430181277299818,
+        "val_txt": "1.14",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 30.666666666666668,
+        "val_txt": "31%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 7.33377501178099,
+        "val_txt": "7.33%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 40.75579994304116,
+        "val_txt": "40.8%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 6.458590906640653,
+        "val_txt": "6.46%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 61.205643207150935,
+        "val_txt": "61.2%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 4,
+    "good_count": 11,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "康佳宁盈",
+      "cost_total_wan": 62.39,
+      "daily_cost_yuan": 44562.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 71.36294027565084,
+      "quanku_open": true,
+      "max3_pct": 62.38532110091744,
+      "mp4m": null,
+      "dcid_per_acc": 233.2,
+      "ad_per_acc": 22.2,
+      "rep_pct": 34.68747549211827,
+      "acc_n": 29.0,
+      "cgr": 1.1389746152064186,
+      "roi": 2.2305280185361114,
+      "qiliang_pct": 19.672131147540984,
+      "ctr": 2.7347910893376723,
+      "fast3s": 44.93577361065954,
+      "funnel_in": 2.244213295524997,
+      "funnel_click": 48.61245219135996,
+      "tid_n": 25502,
+      "ad_n": 645,
+      "dcid_n": 6764,
+      "cpa": 159.67435456110155,
+      "bid": 62.88738089190658,
+      "funnel_order": 13.24098436774493
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 71.36294027565084,
+        "val_txt": "71%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 62.38532110091744,
+        "val_txt": "62%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 233.2,
+        "val_txt": "233",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 22.2,
+        "val_txt": "22.2",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 34.68747549211827,
+        "val_txt": "34.7%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 29.0,
+        "val_txt": "29",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1389746152064186,
+        "val_txt": "1.14",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 19.672131147540984,
+        "val_txt": "20%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 2.7347910893376723,
+        "val_txt": "2.73%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 44.93577361065954,
+        "val_txt": "44.9%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.244213295524997,
+        "val_txt": "2.24%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 48.61245219135996,
+        "val_txt": "48.6%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 6,
+    "good_count": 9,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "冠轩生活电器研究所",
+      "cost_total_wan": 49.54,
+      "daily_cost_yuan": 35388.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 29.68591691995947,
+      "quanku_open": true,
+      "max3_pct": 86.79631525076765,
+      "mp4m": null,
+      "dcid_per_acc": 273.4,
+      "ad_per_acc": 37.8,
+      "rep_pct": 20.785443191300367,
+      "acc_n": 48.0,
+      "cgr": 1.1738293482779627,
+      "roi": 2.6643317597679093,
+      "qiliang_pct": 50.34965034965035,
+      "ctr": 6.402616759089878,
+      "fast3s": 40.34251008480165,
+      "funnel_in": 5.638007334506931,
+      "funnel_click": 42.396536355532916,
+      "tid_n": 37151,
+      "ad_n": 1816,
+      "dcid_n": 13122,
+      "cpa": 200.27325140342893,
+      "bid": 63.34141803565013,
+      "funnel_order": 13.035381750465548
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 29.68591691995947,
+        "val_txt": "30%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 86.79631525076765,
+        "val_txt": "87%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 273.4,
+        "val_txt": "273",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 37.8,
+        "val_txt": "37.8",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 20.785443191300367,
+        "val_txt": "20.8%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 48.0,
+        "val_txt": "48",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1738293482779627,
+        "val_txt": "1.17",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 50.34965034965035,
+        "val_txt": "50%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 6.402616759089878,
+        "val_txt": "6.40%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 40.34251008480165,
+        "val_txt": "40.3%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 5.638007334506931,
+        "val_txt": "5.64%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 42.396536355532916,
+        "val_txt": "42.4%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 3,
+    "good_count": 12,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "荣暖生活电器",
+      "cost_total_wan": 43.26,
+      "daily_cost_yuan": 30900.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 1.768172888015717,
+      "quanku_open": true,
+      "max3_pct": 75.625,
+      "mp4m": null,
+      "dcid_per_acc": 290.9,
+      "ad_per_acc": 40.3,
+      "rep_pct": 37.182927885031596,
+      "acc_n": 17.0,
+      "cgr": 1.0813016653887124,
+      "roi": 3.5025802815446374,
+      "qiliang_pct": 38.46153846153846,
+      "ctr": 3.9214281494080314,
+      "fast3s": 50.17158123841978,
+      "funnel_in": 3.1948483454236127,
+      "funnel_click": 72.03526807816641,
+      "tid_n": 11551,
+      "ad_n": 685,
+      "dcid_n": 4946,
+      "cpa": 99.03248366013072,
+      "bid": 25.665419570208112,
+      "funnel_order": 11.225098292887537
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 1.768172888015717,
+        "val_txt": "2%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 75.625,
+        "val_txt": "76%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 290.9,
+        "val_txt": "291",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 40.3,
+        "val_txt": "40.3",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 37.182927885031596,
+        "val_txt": "37.2%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 17.0,
+        "val_txt": "17",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.0813016653887124,
+        "val_txt": "1.08",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 38.46153846153846,
+        "val_txt": "38%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 3.9214281494080314,
+        "val_txt": "3.92%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 50.17158123841978,
+        "val_txt": "50.2%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.1948483454236127,
+        "val_txt": "3.19%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 72.03526807816641,
+        "val_txt": "72.0%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 10,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "创维普澈家用电器",
+      "cost_total_wan": 34.6,
+      "daily_cost_yuan": 24715.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 74.72283813747228,
+      "quanku_open": true,
+      "max3_pct": 92.1875,
+      "mp4m": null,
+      "dcid_per_acc": 237.2,
+      "ad_per_acc": 28.9,
+      "rep_pct": 38.17509792022949,
+      "acc_n": 21.0,
+      "cgr": 1.1921513612847143,
+      "roi": 2.610582735972779,
+      "qiliang_pct": 33.333333333333336,
+      "ctr": 3.6906002116367396,
+      "fast3s": 52.898195298933814,
+      "funnel_in": 3.1028570959830035,
+      "funnel_click": 37.9130756622429,
+      "tid_n": 18127,
+      "ad_n": 606,
+      "dcid_n": 4982,
+      "cpa": 254.73491257755217,
+      "bid": 87.57064647079,
+      "funnel_order": 10.194547102712503
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 74.72283813747228,
+        "val_txt": "75%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 92.1875,
+        "val_txt": "92%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 237.2,
+        "val_txt": "237",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 28.9,
+        "val_txt": "28.9",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 38.17509792022949,
+        "val_txt": "38.2%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 21.0,
+        "val_txt": "21",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1921513612847143,
+        "val_txt": "1.19",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 33.333333333333336,
+        "val_txt": "33%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 3.6906002116367396,
+        "val_txt": "3.69%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 52.898195298933814,
+        "val_txt": "52.9%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.1028570959830035,
+        "val_txt": "3.10%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 37.9130756622429,
+        "val_txt": "37.9%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 6,
+    "good_count": 9,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "湃飒清洁电器",
+      "cost_total_wan": 29.59,
+      "daily_cost_yuan": 21137.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 1.2275731822474032,
+      "quanku_open": true,
+      "max3_pct": 77.11598746081505,
+      "mp4m": null,
+      "dcid_per_acc": 105.1,
+      "ad_per_acc": 14.9,
+      "rep_pct": 26.266464032421478,
+      "acc_n": 54.0,
+      "cgr": 1.1806013978293652,
+      "roi": 7.02917714115361,
+      "qiliang_pct": 40.0,
+      "ctr": 3.9991562088962054,
+      "fast3s": 42.371293506561834,
+      "funnel_in": 3.6933232960796802,
+      "funnel_click": 65.9711956278278,
+      "tid_n": 11844,
+      "ad_n": 807,
+      "dcid_n": 5673,
+      "cpa": 598.7458261370178,
+      "bid": 74.45864463931233,
+      "funnel_order": 5.4204084404230395
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 1.2275731822474032,
+        "val_txt": "1%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 77.11598746081505,
+        "val_txt": "77%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 105.1,
+        "val_txt": "105",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 14.9,
+        "val_txt": "14.9",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 26.266464032421478,
+        "val_txt": "26.3%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 54.0,
+        "val_txt": "54",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1806013978293652,
+        "val_txt": "1.18",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 40.0,
+        "val_txt": "40%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 3.9991562088962054,
+        "val_txt": "4.00%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 42.371293506561834,
+        "val_txt": "42.4%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.6933232960796802,
+        "val_txt": "3.69%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 65.9711956278278,
+        "val_txt": "66.0%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 3,
+    "good_count": 12,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "康佳家用生活电器",
+      "cost_total_wan": 25.69,
+      "daily_cost_yuan": 18348.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 23.769338959212376,
+      "quanku_open": true,
+      "max3_pct": 68.05555555555556,
+      "mp4m": null,
+      "dcid_per_acc": 177.2,
+      "ad_per_acc": 20.3,
+      "rep_pct": 32.1025641025641,
+      "acc_n": 34.0,
+      "cgr": 1.1499555643702117,
+      "roi": 2.2096656959223613,
+      "qiliang_pct": 36.666666666666664,
+      "ctr": 2.6363982713824923,
+      "fast3s": 42.686788590998134,
+      "funnel_in": 2.170695895864689,
+      "funnel_click": 48.08652988403212,
+      "tid_n": 16575,
+      "ad_n": 689,
+      "dcid_n": 6026,
+      "cpa": 159.08492152466368,
+      "bid": 60.128006064277145,
+      "funnel_order": 13.769594657267415
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 23.769338959212376,
+        "val_txt": "24%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 68.05555555555556,
+        "val_txt": "68%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 177.2,
+        "val_txt": "177",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 20.3,
+        "val_txt": "20.3",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 32.1025641025641,
+        "val_txt": "32.1%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 34.0,
+        "val_txt": "34",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1499555643702117,
+        "val_txt": "1.15",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 36.666666666666664,
+        "val_txt": "37%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 2.6363982713824923,
+        "val_txt": "2.64%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 42.686788590998134,
+        "val_txt": "42.7%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.170695895864689,
+        "val_txt": "2.17%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 48.08652988403212,
+        "val_txt": "48.1%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 6,
+    "good_count": 9,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "创维冷暖电器",
+      "cost_total_wan": 17.38,
+      "daily_cost_yuan": 12414.0,
+      "stage": "头客阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 83.93162393162393,
+      "mp4m": null,
+      "dcid_per_acc": 325.2,
+      "ad_per_acc": 28.8,
+      "rep_pct": 27.485296227227085,
+      "acc_n": 25.0,
+      "cgr": 1.3082907209913335,
+      "roi": 2.476804101145135,
+      "qiliang_pct": 53.94736842105263,
+      "ctr": 2.5107209115076667,
+      "fast3s": 64.91346752074588,
+      "funnel_in": 2.1326238953396115,
+      "funnel_click": 60.665074407495865,
+      "tid_n": 27884,
+      "ad_n": 721,
+      "dcid_n": 8131,
+      "cpa": 298.3035343035343,
+      "bid": 91.6376122215554,
+      "funnel_order": 9.827377347062386
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 83.93162393162393,
+        "val_txt": "84%",
+        "threshold": 95,
+        "threshold_txt": "≥95%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 325.2,
+        "val_txt": "325",
+        "threshold": 100,
+        "threshold_txt": "≥100",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 28.8,
+        "val_txt": "28.8",
+        "threshold": 7,
+        "threshold_txt": "≥7",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 27.485296227227085,
+        "val_txt": "27.5%",
+        "threshold": 30,
+        "threshold_txt": "≤30%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 25.0,
+        "val_txt": "25",
+        "threshold": 10,
+        "threshold_txt": "≥10",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.3082907209913335,
+        "val_txt": "1.31",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 53.94736842105263,
+        "val_txt": "54%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 2.5107209115076667,
+        "val_txt": "2.51%",
+        "threshold": 3.5,
+        "threshold_txt": "≥3.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 64.91346752074588,
+        "val_txt": "64.9%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.1326238953396115,
+        "val_txt": "2.13%",
+        "threshold": 1.8,
+        "threshold_txt": "≥1.8%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 60.665074407495865,
+        "val_txt": "60.7%",
+        "threshold": 58,
+        "threshold_txt": "≥58%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 10,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "苏泊尔盾塑生活电器",
+      "cost_total_wan": 8.83,
+      "daily_cost_yuan": 6306.0,
+      "stage": "跃迁阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 76.48902821316614,
+      "mp4m": null,
+      "dcid_per_acc": 296.5,
+      "ad_per_acc": 26.2,
+      "rep_pct": 21.698662012798138,
+      "acc_n": 17.0,
+      "cgr": 1.2236288151941346,
+      "roi": 2.1150496484663392,
+      "qiliang_pct": 56.94444444444444,
+      "ctr": 3.1884063058967262,
+      "fast3s": 30.83667923534777,
+      "funnel_in": 2.6774257533496346,
+      "funnel_click": 46.04995738543237,
+      "tid_n": 12033,
+      "ad_n": 446,
+      "dcid_n": 5040,
+      "cpa": 99.1056263269639,
+      "bid": 31.45427290008446,
+      "funnel_order": 17.340546697038725
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 70,
+        "threshold_txt": "≥70%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 76.48902821316614,
+        "val_txt": "76%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 296.5,
+        "val_txt": "296",
+        "threshold": 50,
+        "threshold_txt": "≥50",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 26.2,
+        "val_txt": "26.2",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 21.698662012798138,
+        "val_txt": "21.7%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 17.0,
+        "val_txt": "17",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.2236288151941346,
+        "val_txt": "1.22",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 56.94444444444444,
+        "val_txt": "57%",
+        "threshold": 45,
+        "threshold_txt": "≥45%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 3.1884063058967262,
+        "val_txt": "3.19%",
+        "threshold": 3.0,
+        "threshold_txt": "≥3.0%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 30.83667923534777,
+        "val_txt": "30.8%",
+        "threshold": 55,
+        "threshold_txt": "≤55%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.6774257533496346,
+        "val_txt": "2.68%",
+        "threshold": 1.6,
+        "threshold_txt": "≥1.6%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 46.04995738543237,
+        "val_txt": "46.0%",
+        "threshold": 55,
+        "threshold_txt": "≥55%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 4,
+    "good_count": 11,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "倍宠家用生活电器",
+      "cost_total_wan": 8.56,
+      "daily_cost_yuan": 6111.0,
+      "stage": "跃迁阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 93.54838709677419,
+      "mp4m": null,
+      "dcid_per_acc": 15.8,
+      "ad_per_acc": 6.9,
+      "rep_pct": 51.7406962785114,
+      "acc_n": 16.0,
+      "cgr": 1.0213443498870147,
+      "roi": 3.2178246917971576,
+      "qiliang_pct": 80.95238095238095,
+      "ctr": 2.2492545432978432,
+      "fast3s": 54.385548323961046,
+      "funnel_in": 2.0467848217243874,
+      "funnel_click": 75.5595523581135,
+      "tid_n": 833,
+      "ad_n": 111,
+      "dcid_n": 252,
+      "cpa": 399.0,
+      "bid": 122.5168348216033,
+      "funnel_order": 16.794498809838668
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 70,
+        "threshold_txt": "≥70%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 93.54838709677419,
+        "val_txt": "94%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 15.8,
+        "val_txt": "16",
+        "threshold": 50,
+        "threshold_txt": "≥50",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 6.9,
+        "val_txt": "6.9",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 51.7406962785114,
+        "val_txt": "51.7%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "保证新素材有 30%+ 不重复帧",
+          "effect": "重复素材会被系统打压无曝光"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 16.0,
+        "val_txt": "16",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.0213443498870147,
+        "val_txt": "1.02",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 80.95238095238095,
+        "val_txt": "81%",
+        "threshold": 45,
+        "threshold_txt": "≥45%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 2.2492545432978432,
+        "val_txt": "2.25%",
+        "threshold": 3.0,
+        "threshold_txt": "≥3.0%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 54.385548323961046,
+        "val_txt": "54.4%",
+        "threshold": 55,
+        "threshold_txt": "≤55%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.0467848217243874,
+        "val_txt": "2.05%",
+        "threshold": 1.6,
+        "threshold_txt": "≥1.6%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 75.5595523581135,
+        "val_txt": "75.6%",
+        "threshold": 55,
+        "threshold_txt": "≥55%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 4,
+    "good_count": 11,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "美满生活电器",
+      "cost_total_wan": 4.2,
+      "daily_cost_yuan": 3001.0,
+      "stage": "跃迁阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 10.578512396694215,
+      "quanku_open": true,
+      "max3_pct": 54.13533834586466,
+      "mp4m": null,
+      "dcid_per_acc": 73.9,
+      "ad_per_acc": 9.7,
+      "rep_pct": 25.576342788171395,
+      "acc_n": 36.0,
+      "cgr": 1.4104131240054998,
+      "roi": 4.114106889266506,
+      "qiliang_pct": 42.5531914893617,
+      "ctr": 4.222306115845108,
+      "fast3s": 48.73371116928032,
+      "funnel_in": 3.9095027505123503,
+      "funnel_click": 67.45758035591116,
+      "tid_n": 8285,
+      "ad_n": 349,
+      "dcid_n": 2661,
+      "cpa": 999.0,
+      "bid": 169.65365096209732,
+      "funnel_order": 3.0061349693251533
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 10.578512396694215,
+        "val_txt": "11%",
+        "threshold": 70,
+        "threshold_txt": "≥70%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 54.13533834586466,
+        "val_txt": "54%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 73.9,
+        "val_txt": "74",
+        "threshold": 50,
+        "threshold_txt": "≥50",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 9.7,
+        "val_txt": "9.7",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 25.576342788171395,
+        "val_txt": "25.6%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 36.0,
+        "val_txt": "36",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.4104131240054998,
+        "val_txt": "1.41",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 42.5531914893617,
+        "val_txt": "43%",
+        "threshold": 45,
+        "threshold_txt": "≥45%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 4.222306115845108,
+        "val_txt": "4.22%",
+        "threshold": 3.0,
+        "threshold_txt": "≥3.0%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 48.73371116928032,
+        "val_txt": "48.7%",
+        "threshold": 55,
+        "threshold_txt": "≤55%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.9095027505123503,
+        "val_txt": "3.91%",
+        "threshold": 1.6,
+        "threshold_txt": "≥1.6%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 67.45758035591116,
+        "val_txt": "67.5%",
+        "threshold": 55,
+        "threshold_txt": "≥55%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 4,
+    "good_count": 11,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "康佳冷暖家用电器",
+      "cost_total_wan": 3.6,
+      "daily_cost_yuan": 2570.0,
+      "stage": "跃迁阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 21.5,
+      "quanku_open": true,
+      "max3_pct": 72.72727272727273,
+      "mp4m": null,
+      "dcid_per_acc": 42.4,
+      "ad_per_acc": 7.2,
+      "rep_pct": 42.243589743589745,
+      "acc_n": 31.0,
+      "cgr": 1.191138390807707,
+      "roi": 3.090020416176548,
+      "qiliang_pct": 4.651162790697675,
+      "ctr": 3.7455803243824586,
+      "fast3s": 47.21004603230369,
+      "funnel_in": 2.9731352456116587,
+      "funnel_click": 43.3127082341742,
+      "tid_n": 3120,
+      "ad_n": 222,
+      "dcid_n": 1313,
+      "cpa": 129.45052386495925,
+      "bid": 35.96730532281912,
+      "funnel_order": 12.700156985871272
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 21.5,
+        "val_txt": "22%",
+        "threshold": 70,
+        "threshold_txt": "≥70%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 72.72727272727273,
+        "val_txt": "73%",
+        "threshold": 90,
+        "threshold_txt": "≥90%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 42.4,
+        "val_txt": "42",
+        "threshold": 50,
+        "threshold_txt": "≥50",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 7.2,
+        "val_txt": "7.2",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 42.243589743589745,
+        "val_txt": "42.2%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 31.0,
+        "val_txt": "31",
+        "threshold": 5,
+        "threshold_txt": "≥5",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.191138390807707,
+        "val_txt": "1.19",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 4.651162790697675,
+        "val_txt": "5%",
+        "threshold": 45,
+        "threshold_txt": "≥45%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 3.7455803243824586,
+        "val_txt": "3.75%",
+        "threshold": 3.0,
+        "threshold_txt": "≥3.0%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 47.21004603230369,
+        "val_txt": "47.2%",
+        "threshold": 55,
+        "threshold_txt": "≤55%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 2.9731352456116587,
+        "val_txt": "2.97%",
+        "threshold": 1.6,
+        "threshold_txt": "≥1.6%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 43.3127082341742,
+        "val_txt": "43.3%",
+        "threshold": 55,
+        "threshold_txt": "≥55%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 10,
+    "total_count": 15
+  },
+  {
+    "metrics": {
+      "name": "冠轩生活电器",
+      "cost_total_wan": 1.37,
+      "daily_cost_yuan": 977.0,
+      "stage": "冷启动阶段",
+      "quanyutong": false,
+      "zhitou_open": true,
+      "aigc_pct": 18.30065359477124,
+      "quanku_open": true,
+      "max3_pct": 77.92207792207793,
+      "mp4m": null,
+      "dcid_per_acc": 94.6,
+      "ad_per_acc": 8.6,
+      "rep_pct": 29.85190958690569,
+      "acc_n": 10.0,
+      "cgr": 1.297244246109154,
+      "roi": 2.4994297378548787,
+      "qiliang_pct": 0.0,
+      "ctr": 5.021759930862063,
+      "fast3s": 56.02714639663902,
+      "funnel_in": 4.373591777523997,
+      "funnel_click": 39.59068454481299,
+      "tid_n": 2566,
+      "ad_n": 86,
+      "dcid_n": 946,
+      "cpa": 305.24107142857144,
+      "bid": 97.24263724681992,
+      "funnel_order": 16.39928698752228
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": false,
+        "val_txt": "❌",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "bad",
+        "suggest": {
+          "tip": "开启全域通投放",
+          "effect": "CPA 扣费，无任何空耗超成本问题"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 18.30065359477124,
+        "val_txt": "18%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 77.92207792207793,
+        "val_txt": "78%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 94.6,
+        "val_txt": "95",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 8.6,
+        "val_txt": "8.6",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 29.85190958690569,
+        "val_txt": "29.9%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 10.0,
+        "val_txt": "10",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.297244246109154,
+        "val_txt": "1.30",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 5.021759930862063,
+        "val_txt": "5.02%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 56.02714639663902,
+        "val_txt": "56.0%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 4.373591777523997,
+        "val_txt": "4.37%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 39.59068454481299,
+        "val_txt": "39.6%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 6,
+    "good_count": 8,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "万奥美满家用电器",
+      "cost_total_wan": 1.3,
+      "daily_cost_yuan": 926.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 100.0,
+      "mp4m": null,
+      "dcid_per_acc": 34.0,
+      "ad_per_acc": 11.6,
+      "rep_pct": 44.42231075697211,
+      "acc_n": 14.0,
+      "cgr": 3.0319443452488444,
+      "roi": 0.8017541139901931,
+      "qiliang_pct": 25.0,
+      "ctr": 2.313075960018882,
+      "fast3s": 30.23967080020019,
+      "funnel_in": 1.933378486546395,
+      "funnel_click": 46.496815286624205,
+      "tid_n": 2008,
+      "ad_n": 163,
+      "dcid_n": 476,
+      "cpa": 99.96153846153847,
+      "bid": 66.12617327476593,
+      "funnel_order": 12.100456621004566
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 100.0,
+        "val_txt": "100%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 34.0,
+        "val_txt": "34",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 11.6,
+        "val_txt": "11.6",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 44.42231075697211,
+        "val_txt": "44.4%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 14.0,
+        "val_txt": "14",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 3.0319443452488444,
+        "val_txt": "3.03",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 25.0,
+        "val_txt": "25%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 2.313075960018882,
+        "val_txt": "2.31%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 30.23967080020019,
+        "val_txt": "30.2%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 1.933378486546395,
+        "val_txt": "1.93%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 46.496815286624205,
+        "val_txt": "46.5%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 9,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "美满随行生活电器",
+      "cost_total_wan": 1.04,
+      "daily_cost_yuan": 740.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 70.2127659574468,
+      "mp4m": null,
+      "dcid_per_acc": 57.1,
+      "ad_per_acc": 7.6,
+      "rep_pct": 36.61257606490872,
+      "acc_n": 8.0,
+      "cgr": 1.1523024387091256,
+      "roi": 4.2319449751624,
+      "qiliang_pct": 0.0,
+      "ctr": 6.041955669709655,
+      "fast3s": 44.96652356928733,
+      "funnel_in": 5.430127393550967,
+      "funnel_click": 61.63543061133423,
+      "tid_n": 986,
+      "ad_n": 61,
+      "dcid_n": 457,
+      "cpa": 99.0,
+      "bid": 20.733919214365073,
+      "funnel_order": 7.656108597285068
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 70.2127659574468,
+        "val_txt": "70%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 57.1,
+        "val_txt": "57",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 7.6,
+        "val_txt": "7.6",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 36.61257606490872,
+        "val_txt": "36.6%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 8.0,
+        "val_txt": "8",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1523024387091256,
+        "val_txt": "1.15",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 6.041955669709655,
+        "val_txt": "6.04%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 44.96652356928733,
+        "val_txt": "45.0%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 5.430127393550967,
+        "val_txt": "5.43%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 61.63543061133423,
+        "val_txt": "61.6%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 3,
+    "good_count": 11,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "创维智享生活电器",
+      "cost_total_wan": 0.7,
+      "daily_cost_yuan": 498.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 77.57575757575758,
+      "mp4m": null,
+      "dcid_per_acc": 114.7,
+      "ad_per_acc": 15.9,
+      "rep_pct": 24.41999521645539,
+      "acc_n": 17.0,
+      "cgr": 3.000021729789362,
+      "roi": 1.0986376835309128,
+      "qiliang_pct": 61.666666666666664,
+      "ctr": 6.469165659008464,
+      "fast3s": 64.39737771053959,
+      "funnel_in": 5.8645707376058045,
+      "funnel_click": 36.597938144329895,
+      "tid_n": 4181,
+      "ad_n": 271,
+      "dcid_n": 1950,
+      "cpa": 294.38461538461536,
+      "bid": 90.50996032585357,
+      "funnel_order": 7.042253521126761
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 77.57575757575758,
+        "val_txt": "78%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 114.7,
+        "val_txt": "115",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 15.9,
+        "val_txt": "15.9",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 24.41999521645539,
+        "val_txt": "24.4%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 17.0,
+        "val_txt": "17",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 3.000021729789362,
+        "val_txt": "3.00",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 61.666666666666664,
+        "val_txt": "62%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 6.469165659008464,
+        "val_txt": "6.47%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 64.39737771053959,
+        "val_txt": "64.4%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 5.8645707376058045,
+        "val_txt": "5.86%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 36.597938144329895,
+        "val_txt": "36.6%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 9,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "康佳盾塑生活电器",
+      "cost_total_wan": 0.36,
+      "daily_cost_yuan": 258.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 54.20560747663551,
+      "quanku_open": true,
+      "max3_pct": 91.80327868852459,
+      "mp4m": null,
+      "dcid_per_acc": 14.6,
+      "ad_per_acc": 5.4,
+      "rep_pct": 8.967851099830796,
+      "acc_n": 28.0,
+      "cgr": 0.8987075504087711,
+      "roi": 2.700424748533342,
+      "qiliang_pct": 5.0,
+      "ctr": 6.3539025077486615,
+      "fast3s": 59.857703035938066,
+      "funnel_in": 5.447543909082371,
+      "funnel_click": 42.8448275862069,
+      "tid_n": 591,
+      "ad_n": 151,
+      "dcid_n": 408,
+      "cpa": 162.33333333333334,
+      "bid": 63.52540726202159,
+      "funnel_order": 10.060362173038229
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 54.20560747663551,
+        "val_txt": "54%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 91.80327868852459,
+        "val_txt": "92%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 14.6,
+        "val_txt": "15",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 5.4,
+        "val_txt": "5.4",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 8.967851099830796,
+        "val_txt": "9.0%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 28.0,
+        "val_txt": "28",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 0.8987075504087711,
+        "val_txt": "0.90",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 5.0,
+        "val_txt": "5%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 6.3539025077486615,
+        "val_txt": "6.35%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 59.857703035938066,
+        "val_txt": "59.9%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 5.447543909082371,
+        "val_txt": "5.45%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 42.8448275862069,
+        "val_txt": "42.8%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 3,
+    "good_count": 11,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "豪岭家用电器",
+      "cost_total_wan": 0.29,
+      "daily_cost_yuan": 206.0,
+      "stage": "冷启动阶段",
+      "quanyutong": false,
+      "zhitou_open": true,
+      "aigc_pct": 33.50253807106599,
+      "quanku_open": true,
+      "max3_pct": 98.75,
+      "mp4m": null,
+      "dcid_per_acc": 64.7,
+      "ad_per_acc": 13.2,
+      "rep_pct": 22.501654533421576,
+      "acc_n": 12.0,
+      "cgr": 1.5252673882740049,
+      "roi": 2.35868549818202,
+      "qiliang_pct": 4.0,
+      "ctr": 7.110493255071568,
+      "fast3s": 45.99366029761381,
+      "funnel_in": 6.317578004324992,
+      "funnel_click": 44.33577832110839,
+      "tid_n": 1511,
+      "ad_n": 159,
+      "dcid_n": 776,
+      "cpa": 141.5,
+      "bid": 39.094997919138095,
+      "funnel_order": 6.4338235294117645
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": false,
+        "val_txt": "❌",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "bad",
+        "suggest": {
+          "tip": "开启全域通投放",
+          "effect": "CPA 扣费，无任何空耗超成本问题"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 33.50253807106599,
+        "val_txt": "34%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 98.75,
+        "val_txt": "99%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 64.7,
+        "val_txt": "65",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 13.2,
+        "val_txt": "13.2",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 22.501654533421576,
+        "val_txt": "22.5%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 12.0,
+        "val_txt": "12",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.5252673882740049,
+        "val_txt": "1.53",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 4.0,
+        "val_txt": "4%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 7.110493255071568,
+        "val_txt": "7.11%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 45.99366029761381,
+        "val_txt": "46.0%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 6.317578004324992,
+        "val_txt": "6.32%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 44.33577832110839,
+        "val_txt": "44.3%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 9,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "世暖健康家用电器",
+      "cost_total_wan": 0.08,
+      "daily_cost_yuan": 56.0,
+      "stage": "冷启动阶段",
+      "quanyutong": false,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 83.6734693877551,
+      "mp4m": null,
+      "dcid_per_acc": 58.0,
+      "ad_per_acc": 13.1,
+      "rep_pct": 26.145874850538064,
+      "acc_n": 27.0,
+      "cgr": 8.15793883535819,
+      "roi": 0.6406306167513994,
+      "qiliang_pct": 6.122448979591836,
+      "ctr": 0.7061197041022192,
+      "fast3s": 77.53432661408121,
+      "funnel_in": 0.23537323470073973,
+      "funnel_click": 42.857142857142854,
+      "tid_n": 2509,
+      "ad_n": 354,
+      "dcid_n": 1567,
+      "cpa": 499.0,
+      "bid": 105.91112837765672,
+      "funnel_order": 0.0
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": false,
+        "val_txt": "❌",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "bad",
+        "suggest": {
+          "tip": "开启全域通投放",
+          "effect": "CPA 扣费，无任何空耗超成本问题"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 83.6734693877551,
+        "val_txt": "84%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 58.0,
+        "val_txt": "58",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 13.1,
+        "val_txt": "13.1",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 26.145874850538064,
+        "val_txt": "26.1%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 27.0,
+        "val_txt": "27",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 8.15793883535819,
+        "val_txt": "8.16",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 6.122448979591836,
+        "val_txt": "6%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 0.7061197041022192,
+        "val_txt": "0.71%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 77.53432661408121,
+        "val_txt": "77.5%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 0.23537323470073973,
+        "val_txt": "0.24%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过评论区控评 + 创意内引导表达刺激进播",
+          "effect": ""
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 42.857142857142854,
+        "val_txt": "42.9%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 8,
+    "good_count": 6,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "创维威宇电器",
+      "cost_total_wan": 0.07,
+      "daily_cost_yuan": 51.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 2.1505376344086025,
+      "quanku_open": true,
+      "max3_pct": 100.0,
+      "mp4m": null,
+      "dcid_per_acc": 11.1,
+      "ad_per_acc": 2.8,
+      "rep_pct": 18.22222222222222,
+      "acc_n": 26.0,
+      "cgr": 1.1839421645033203,
+      "roi": 2.34569100725915,
+      "qiliang_pct": 11.11111111111111,
+      "ctr": 4.215658158875825,
+      "fast3s": 63.33833833833834,
+      "funnel_in": 3.6707771723544593,
+      "funnel_click": 32.8125,
+      "tid_n": 450,
+      "ad_n": 74,
+      "dcid_n": 289,
+      "cpa": 169.0,
+      "bid": 26.953090733449983,
+      "funnel_order": 16.666666666666668
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 2.1505376344086025,
+        "val_txt": "2%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 100.0,
+        "val_txt": "100%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 11.1,
+        "val_txt": "11",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 2.8,
+        "val_txt": "2.8",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过新增账户/优化目标/小店 4+M 等提升在投广告数",
+          "effect": "在投广告数与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 18.22222222222222,
+        "val_txt": "18.2%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 26.0,
+        "val_txt": "26",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.1839421645033203,
+        "val_txt": "1.18",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 11.11111111111111,
+        "val_txt": "11%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 4.215658158875825,
+        "val_txt": "4.22%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 63.33833833833834,
+        "val_txt": "63.3%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.6707771723544593,
+        "val_txt": "3.67%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 32.8125,
+        "val_txt": "32.8%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 6,
+    "good_count": 8,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "美的誉须生活电器",
+      "cost_total_wan": 0.06,
+      "daily_cost_yuan": 44.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": null,
+      "aigc_pct": null,
+      "quanku_open": null,
+      "max3_pct": null,
+      "mp4m": null,
+      "dcid_per_acc": 1.7,
+      "ad_per_acc": 1.2,
+      "rep_pct": 0.0,
+      "acc_n": 6.0,
+      "cgr": 0.9583169584130264,
+      "roi": 4.22104970841433,
+      "qiliang_pct": null,
+      "ctr": 4.966098588968298,
+      "fast3s": 53.23741007194245,
+      "funnel_in": 3.9215686274509802,
+      "funnel_click": 30.8411214953271,
+      "tid_n": 10,
+      "ad_n": 7,
+      "dcid_n": 10,
+      "cpa": 258.4,
+      "bid": 62.91023871947012,
+      "funnel_order": 10.606060606060606
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": null,
+        "val_txt": "—",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": null,
+        "val_txt": "—",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 1.7,
+        "val_txt": "2",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 1.2,
+        "val_txt": "1.2",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过新增账户/优化目标/小店 4+M 等提升在投广告数",
+          "effect": "在投广告数与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 0.0,
+        "val_txt": "0.0%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 6.0,
+        "val_txt": "6",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 0.9583169584130264,
+        "val_txt": "0.96",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 4.966098588968298,
+        "val_txt": "4.97%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 53.23741007194245,
+        "val_txt": "53.2%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.9215686274509802,
+        "val_txt": "3.92%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 30.8411214953271,
+        "val_txt": "30.8%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 3,
+    "good_count": 7,
+    "total_count": 10
+  },
+  {
+    "metrics": {
+      "name": "科散家用电器",
+      "cost_total_wan": 0.03,
+      "daily_cost_yuan": 19.0,
+      "stage": "冷启动阶段",
+      "quanyutong": true,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 66.66666666666666,
+      "mp4m": null,
+      "dcid_per_acc": 12.0,
+      "ad_per_acc": 3.7,
+      "rep_pct": 11.009174311926607,
+      "acc_n": 6.0,
+      "cgr": 0.9410875072496421,
+      "roi": 6.805228360817691,
+      "qiliang_pct": 0.0,
+      "ctr": 7.61478163493841,
+      "fast3s": 43.67058823529412,
+      "funnel_in": 6.998880179171333,
+      "funnel_click": 69.6,
+      "tid_n": 109,
+      "ad_n": 22,
+      "dcid_n": 72,
+      "cpa": 199.0,
+      "bid": 22.041363111282248,
+      "funnel_order": 10.344827586206897
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 66.66666666666666,
+        "val_txt": "67%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "bad",
+        "suggest": {
+          "tip": "竞价推广广告创意增强 MAX",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%~10%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 12.0,
+        "val_txt": "12",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 3.7,
+        "val_txt": "3.7",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 11.009174311926607,
+        "val_txt": "11.0%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 6.0,
+        "val_txt": "6",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 0.9410875072496421,
+        "val_txt": "0.94",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 7.61478163493841,
+        "val_txt": "7.61%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 43.67058823529412,
+        "val_txt": "43.7%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 6.998880179171333,
+        "val_txt": "7.00%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 69.6,
+        "val_txt": "69.6%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 4,
+    "good_count": 10,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "创维礼遇季",
+      "cost_total_wan": 0.02,
+      "daily_cost_yuan": 14.0,
+      "stage": "冷启动阶段",
+      "quanyutong": false,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 100.0,
+      "mp4m": null,
+      "dcid_per_acc": 88.0,
+      "ad_per_acc": 14.5,
+      "rep_pct": 35.04273504273504,
+      "acc_n": 2.0,
+      "cgr": 1.38055560673954,
+      "roi": 3.0580414216312963,
+      "qiliang_pct": 0.0,
+      "ctr": 0.8108108108108109,
+      "fast3s": 53.975903614457835,
+      "funnel_in": 0.8108108108108109,
+      "funnel_click": 0.0,
+      "tid_n": 234,
+      "ad_n": 29,
+      "dcid_n": 176,
+      "cpa": 299.0,
+      "bid": 65.68176362038665,
+      "funnel_order": null
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": false,
+        "val_txt": "❌",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "bad",
+        "suggest": {
+          "tip": "开启全域通投放",
+          "effect": "CPA 扣费，无任何空耗超成本问题"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 100.0,
+        "val_txt": "100%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 88.0,
+        "val_txt": "88",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 14.5,
+        "val_txt": "14.5",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 35.04273504273504,
+        "val_txt": "35.0%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 2.0,
+        "val_txt": "2",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": 1.38055560673954,
+        "val_txt": "1.38",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": "bad",
+        "suggest": {
+          "tip": "前期广告冷启动期计价率会存在不稳定情况；若冷启动期后，无激进起量刺激手段计价率仍不稳定，可提报给对接行业运营排查",
+          "effect": ""
+        }
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 0.8108108108108109,
+        "val_txt": "0.81%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 53.975903614457835,
+        "val_txt": "54.0%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 0.8108108108108109,
+        "val_txt": "0.81%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过评论区控评 + 创意内引导表达刺激进播",
+          "effect": ""
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 0.0,
+        "val_txt": "0.0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 7,
+    "good_count": 7,
+    "total_count": 14
+  },
+  {
+    "metrics": {
+      "name": "和草集自营店",
+      "cost_total_wan": 0.01,
+      "daily_cost_yuan": 7.0,
+      "stage": "冷启动阶段",
+      "quanyutong": false,
+      "zhitou_open": true,
+      "aigc_pct": 5.747126436781609,
+      "quanku_open": true,
+      "max3_pct": 100.0,
+      "mp4m": null,
+      "dcid_per_acc": 12.4,
+      "ad_per_acc": 5.9,
+      "rep_pct": 35.66433566433567,
+      "acc_n": 16.0,
+      "cgr": null,
+      "roi": 0.0,
+      "qiliang_pct": 16.666666666666668,
+      "ctr": 0.7936507936507936,
+      "fast3s": 63.7037037037037,
+      "funnel_in": 0.7936507936507936,
+      "funnel_click": 100.0,
+      "tid_n": 286,
+      "ad_n": 95,
+      "dcid_n": 199,
+      "cpa": null,
+      "bid": 83.3290760454496,
+      "funnel_order": 0.0
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": false,
+        "val_txt": "❌",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "bad",
+        "suggest": {
+          "tip": "开启全域通投放",
+          "effect": "CPA 扣费，无任何空耗超成本问题"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 5.747126436781609,
+        "val_txt": "6%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 100.0,
+        "val_txt": "100%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 12.4,
+        "val_txt": "12",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 5.9,
+        "val_txt": "5.9",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 35.66433566433567,
+        "val_txt": "35.7%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 16.0,
+        "val_txt": "16",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 16.666666666666668,
+        "val_txt": "17%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 0.7936507936507936,
+        "val_txt": "0.79%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类黄金五段式 SOP 提升跑量素材质量",
+          "effect": "CTR 越高，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 63.7037037037037,
+        "val_txt": "63.7%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "bad",
+        "suggest": {
+          "tip": "借鉴业内同品类头部跑量素材前三秒 + 妙思 AI 灵感创作",
+          "effect": "3s 快滑率越低，整体拿量 eCPM 越高"
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 0.7936507936507936,
+        "val_txt": "0.79%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过评论区控评 + 创意内引导表达刺激进播",
+          "effect": ""
+        }
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 100.0,
+        "val_txt": "100.0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "good",
+        "suggest": null
+      }
+    ],
+    "bad_count": 7,
+    "good_count": 6,
+    "total_count": 13
+  },
+  {
+    "metrics": {
+      "name": "松庚家用电器",
+      "cost_total_wan": 0.01,
+      "daily_cost_yuan": 5.0,
+      "stage": "冷启动阶段",
+      "quanyutong": false,
+      "zhitou_open": true,
+      "aigc_pct": 0.0,
+      "quanku_open": true,
+      "max3_pct": 100.0,
+      "mp4m": null,
+      "dcid_per_acc": 20.3,
+      "ad_per_acc": 7.0,
+      "rep_pct": 13.48314606741573,
+      "acc_n": 3.0,
+      "cgr": null,
+      "roi": 0.0,
+      "qiliang_pct": 0.0,
+      "ctr": 4.504504504504505,
+      "fast3s": 54.59317585301837,
+      "funnel_in": 3.903903903903904,
+      "funnel_click": 30.76923076923077,
+      "tid_n": 89,
+      "ad_n": 21,
+      "dcid_n": 61,
+      "cpa": null,
+      "bid": 66.1827644710579,
+      "funnel_order": 0.0
+    },
+    "items": [
+      {
+        "group": "产品工具",
+        "label": "全域通是否开启",
+        "key": "quanyutong",
+        "val": false,
+        "val_txt": "❌",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "bad",
+        "suggest": {
+          "tip": "开启全域通投放",
+          "effect": "CPA 扣费，无任何空耗超成本问题"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "智投是否开启",
+        "key": "zhitou_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": null,
+        "threshold_txt": "不要求",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "智投 AIGC 开启率",
+        "key": "aigc_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "智投广告开启 AIGC 衍生",
+          "effect": "系统自动拉取素材进行 AI 模板 + 混剪 + 数字人 + 九图生成，头客开启后量级 +5%"
+        }
+      },
+      {
+        "group": "产品工具",
+        "label": "全库智选是否打开",
+        "key": "quanku_open",
+        "val": true,
+        "val_txt": "✅",
+        "threshold": true,
+        "threshold_txt": "开启",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "3.0MAX 开启率",
+        "key": "max3_pct",
+        "val": 100.0,
+        "val_txt": "100%",
+        "threshold": 80,
+        "threshold_txt": "≥80%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "产品工具",
+        "label": "4+M 小店表达 (营销对象数)",
+        "key": "mp4m",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1,
+        "threshold_txt": "≥1",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "创意数/账户数",
+        "key": "dcid_per_acc",
+        "val": 20.3,
+        "val_txt": "20",
+        "threshold": 30,
+        "threshold_txt": "≥30",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过存量素材裂变 + AIGC 妙思提升在投创意量",
+          "effect": "在投创意量级与直播间消耗规模正相关"
+        }
+      },
+      {
+        "group": "基建",
+        "label": "广告数/账户数",
+        "key": "ad_per_acc",
+        "val": 7.0,
+        "val_txt": "7.0",
+        "threshold": 3,
+        "threshold_txt": "≥3",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "有消耗创意重复度",
+        "key": "rep_pct",
+        "val": 13.48314606741573,
+        "val_txt": "13.5%",
+        "threshold": 50,
+        "threshold_txt": "≤50%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "基建",
+        "label": "账户数",
+        "key": "acc_n",
+        "val": 3.0,
+        "val_txt": "3",
+        "threshold": 2,
+        "threshold_txt": "≥2",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "计价率 (Cost/GMV)",
+        "key": "cgr",
+        "val": null,
+        "val_txt": "—",
+        "threshold": 1.2,
+        "threshold_txt": "≤1.2",
+        "status": null,
+        "suggest": null
+      },
+      {
+        "group": "模型 / 出价",
+        "label": "一键起量广告占比",
+        "key": "qiliang_pct",
+        "val": 0.0,
+        "val_txt": "0%",
+        "threshold": 40,
+        "threshold_txt": "≥40%",
+        "status": "bad",
+        "suggest": {
+          "tip": "新广告少预算开，成本稳定广告多预算开",
+          "effect": "刺激广告提量，整体消耗规模提升"
+        }
+      },
+      {
+        "group": "创意质量",
+        "label": "素材 CTR",
+        "key": "ctr",
+        "val": 4.504504504504505,
+        "val_txt": "4.50%",
+        "threshold": 2.5,
+        "threshold_txt": "≥2.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "创意质量",
+        "label": "3s 快滑率",
+        "key": "fast3s",
+        "val": 54.59317585301837,
+        "val_txt": "54.6%",
+        "threshold": 60,
+        "threshold_txt": "≤60%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·进播",
+        "key": "funnel_in",
+        "val": 3.903903903903904,
+        "val_txt": "3.90%",
+        "threshold": 1.5,
+        "threshold_txt": "≥1.5%",
+        "status": "good",
+        "suggest": null
+      },
+      {
+        "group": "直播间",
+        "label": "直播漏斗·商品点击",
+        "key": "funnel_click",
+        "val": 30.76923076923077,
+        "val_txt": "30.8%",
+        "threshold": 50,
+        "threshold_txt": "≥50%",
+        "status": "bad",
+        "suggest": {
+          "tip": "通过主播引导 + 利益点优化 + 福袋活动刺激商品点击增加",
+          "effect": ""
+        }
+      }
+    ],
+    "bad_count": 5,
+    "good_count": 8,
+    "total_count": 13
+  }
+]
