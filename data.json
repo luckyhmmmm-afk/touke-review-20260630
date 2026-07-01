@@ -2297,7 +2297,7 @@
       "rank": 3,
       "products": [
         {
-          "product": "吸尘器",
+          "product": "车载吸尘器",
           "cost_wan": 112.18
         }
       ],
@@ -8385,7 +8385,7 @@
       "rank": 17,
       "products": [
         {
-          "product": "循环扇",
+          "product": "空气循环扇",
           "cost_wan": 0.79
         },
         {
@@ -13375,7 +13375,7 @@
       "rank": 3,
       "products": [
         {
-          "product": "吸尘器",
+          "product": "车载吸尘器",
           "cost_wan": 112.18
         }
       ],
@@ -17396,57 +17396,23 @@
   "cat_bench": {},
   "room_changes": [
     {
-      "name": "康佳冷暖家用电器",
-      "stage": "跃迁阶段",
+      "name": "冠轩生活电器研究所",
+      "stage": "头客阶段",
       "h1": {
-        "cost_wan": 0,
-        "roi": null,
-        "ctr": null,
-        "cvr": null,
-        "cpa": null,
-        "tid": 0,
-        "days": 0
-      },
-      "h2": {
-        "cost_wan": 3.6,
-        "roi": 3.090020416176548,
-        "ctr": 3.7045841786063933,
-        "cvr": 4.4811023231543,
-        "cpa": 129.429569878492,
-        "tid": 0,
-        "days": 10
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": 3.6,
-      "delta_cost_pct": null,
-      "delta_ctr": null,
-      "delta_cvr": null,
-      "delta_roi": null,
-      "delta_cpa": null
-    },
-    {
-      "name": "美满随行生活电器",
-      "stage": "冷启动阶段",
-      "h1": {
-        "cost_wan": 1.01,
-        "roi": 4.316777820953047,
-        "ctr": 6.564056235886881,
-        "cvr": 3.6431988856353783,
-        "cpa": 98.9711282009776,
+        "cost_wan": 43.22,
+        "roi": 2.6437366518555576,
+        "ctr": 5.616956091092812,
+        "cvr": 4.849758018596351,
+        "cpa": 200.0278377884925,
         "tid": 0,
         "days": 14
       },
       "h2": {
-        "cost_wan": 1.04,
-        "roi": 4.2319449751624,
-        "ctr": 5.968025199970486,
-        "cvr": 4.287392108438205,
-        "cpa": 99.00000000000001,
+        "cost_wan": 49.54,
+        "roi": 2.6643317597679093,
+        "ctr": 7.764017215414238,
+        "cvr": 2.4580025188831534,
+        "cpa": 200.37158581293167,
         "tid": 0,
         "days": 14
       },
@@ -17456,12 +17422,15 @@
       "tid_h1": null,
       "tid_h2": null,
       "delta_tid": null,
-      "delta_cost_wan": 0.03,
-      "delta_cost_pct": 3.0,
-      "delta_ctr": -0.6,
-      "delta_cvr": 0.64,
-      "delta_roi": -0.08,
-      "delta_cpa": 0.0
+      "delta_cost_wan": 6.32,
+      "delta_cost_pct": 14.6,
+      "delta_ctr": 2.15,
+      "delta_cvr": -2.39,
+      "delta_roi": 0.02,
+      "delta_cpa": 0.3,
+      "reasons": [
+        "CTR 5.616956091092812% → 7.764017215414238%（+2.15pp），开头钩子吃住了流量"
+      ]
     },
     {
       "name": "豪岭家用电器",
@@ -17496,6 +17465,145 @@
       "delta_cvr": -2.78,
       "delta_roi": -0.58,
       "delta_cpa": -0.0
+    },
+    {
+      "name": "康佳盾塑生活电器",
+      "stage": "跃迁阶段",
+      "h1": {
+        "cost_wan": 4.75,
+        "roi": 1.858643756089042,
+        "ctr": 2.43421086604923,
+        "cvr": 3.312607798425192,
+        "cpa": 229.49464321794568,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 0.36,
+        "roi": 2.5845338301671266,
+        "ctr": 5.609474919844402,
+        "cvr": 4.232471088067414,
+        "cpa": 160.84783886703786,
+        "tid": 0,
+        "days": 4
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -4.39,
+      "delta_cost_pct": -92.4,
+      "delta_ctr": 3.18,
+      "delta_cvr": 0.92,
+      "delta_roi": 0.73,
+      "delta_cpa": -68.6
+    },
+    {
+      "name": "创维威宇电器",
+      "stage": "冷启动阶段",
+      "h1": {
+        "cost_wan": 1.63,
+        "roi": 1.1053985999186702,
+        "ctr": 4.038744663537769,
+        "cvr": 0.6215440554141399,
+        "cpa": 298.7311217344349,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 0.07,
+        "roi": 2.3456910072591493,
+        "ctr": 8.968647320396864,
+        "cvr": 0.2936136706133942,
+        "cpa": 169.0,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -1.56,
+      "delta_cost_pct": -95.7,
+      "delta_ctr": 4.93,
+      "delta_cvr": -0.33,
+      "delta_roi": 1.24,
+      "delta_cpa": -129.7
+    },
+    {
+      "name": "荣暖生活电器",
+      "stage": "头客阶段",
+      "h1": {
+        "cost_wan": 14.07,
+        "roi": 3.495300707575358,
+        "ctr": 3.5031582168170297,
+        "cvr": 6.812326827944652,
+        "cpa": 99.07092460872643,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 43.26,
+        "roi": 3.5025802815446374,
+        "ctr": 3.992746549720963,
+        "cvr": 6.627735478907976,
+        "cpa": 99.03413585061718,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": 29.19,
+      "delta_cost_pct": 207.5,
+      "delta_ctr": 0.49,
+      "delta_cvr": -0.18,
+      "delta_roi": 0.01,
+      "delta_cpa": -0.0,
+      "reasons": [
+        "CTR 3.5031582168170297% → 3.992746549720963%（+0.49pp），开头钩子吃住了流量"
+      ]
+    },
+    {
+      "name": "康佳冷暖家用电器",
+      "stage": "跃迁阶段",
+      "h1": {
+        "cost_wan": 0,
+        "roi": null,
+        "ctr": null,
+        "cvr": null,
+        "cpa": null,
+        "tid": 0,
+        "days": 0
+      },
+      "h2": {
+        "cost_wan": 3.6,
+        "roi": 3.090020416176548,
+        "ctr": 3.7045841786063933,
+        "cvr": 4.4811023231543,
+        "cpa": 129.429569878492,
+        "tid": 0,
+        "days": 10
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": 3.6,
+      "delta_cost_pct": null,
+      "delta_ctr": null,
+      "delta_cvr": null,
+      "delta_roi": null,
+      "delta_cpa": null
     },
     {
       "name": "创维普澈家用电器",
@@ -17536,367 +17644,6 @@
         "ROI 由 3.0234908035863377 下滑至 2.600805586446276（-0.42），需重新调拨预算或换产品",
         "下单单价 226.34489105899144 → 258.8173440955731（+32.5），获客成本上行，模型探索期或竞争加剧"
       ]
-    },
-    {
-      "name": "苏泊尔盾塑生活电器",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 22.66,
-        "roi": 1.920987126313853,
-        "ctr": 2.4175361409504927,
-        "cvr": 8.020463772158653,
-        "cpa": 98.99907478098892,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 8.83,
-        "roi": 2.1150496484663392,
-        "ctr": 3.0858376974738992,
-        "cvr": 5.607095378484702,
-        "cpa": 99.10744012322304,
-        "tid": 0,
-        "days": 12
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -13.83,
-      "delta_cost_pct": -61.0,
-      "delta_ctr": 0.67,
-      "delta_cvr": -2.41,
-      "delta_roi": 0.19,
-      "delta_cpa": 0.1,
-      "reasons": [
-        "浅层 CVR 8.020463772158653% → 5.607095378484702%（-2.41pp），承接环节出问题（话术/价格/库存/客服）"
-      ]
-    },
-    {
-      "name": "康佳盾塑生活电器",
-      "stage": "跃迁阶段",
-      "h1": {
-        "cost_wan": 4.75,
-        "roi": 1.858643756089042,
-        "ctr": 2.43421086604923,
-        "cvr": 3.312607798425192,
-        "cpa": 229.49464321794568,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 0.36,
-        "roi": 2.5845338301671266,
-        "ctr": 5.609474919844402,
-        "cvr": 4.232471088067414,
-        "cpa": 160.84783886703786,
-        "tid": 0,
-        "days": 4
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -4.39,
-      "delta_cost_pct": -92.4,
-      "delta_ctr": 3.18,
-      "delta_cvr": 0.92,
-      "delta_roi": 0.73,
-      "delta_cpa": -68.6
-    },
-    {
-      "name": "康佳家用生活电器",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 13.81,
-        "roi": 1.898712008264116,
-        "ctr": 3.797573047445052,
-        "cvr": 2.068308342106093,
-        "cpa": 197.32286255686722,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 25.69,
-        "roi": 2.209665695922361,
-        "ctr": 2.8715717588914558,
-        "cvr": 4.511893298298331,
-        "cpa": 159.08404298836666,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": 11.88,
-      "delta_cost_pct": 86.0,
-      "delta_ctr": -0.93,
-      "delta_cvr": 2.44,
-      "delta_roi": 0.31,
-      "delta_cpa": -38.2,
-      "reasons": [
-        "浅层 CVR 2.068308342106093% → 4.511893298298331%（+2.44pp），直播间承接/价格牌升级",
-        "ROI 由 1.898712008264116 上行至 2.209665695922361（+0.31），ROAS 健康，可继续加预算",
-        "下单单价 197.32286255686722 → 159.08404298836666（-38.2），获客成本下降，模型走稳"
-      ]
-    },
-    {
-      "name": "冠轩生活电器研究所",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 43.22,
-        "roi": 2.6437366518555576,
-        "ctr": 5.616956091092812,
-        "cvr": 4.849758018596351,
-        "cpa": 200.0278377884925,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 49.54,
-        "roi": 2.6643317597679093,
-        "ctr": 7.764017215414238,
-        "cvr": 2.4580025188831534,
-        "cpa": 200.37158581293167,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": 6.32,
-      "delta_cost_pct": 14.6,
-      "delta_ctr": 2.15,
-      "delta_cvr": -2.39,
-      "delta_roi": 0.02,
-      "delta_cpa": 0.3,
-      "reasons": [
-        "CTR 5.616956091092812% → 7.764017215414238%（+2.15pp），开头钩子吃住了流量"
-      ]
-    },
-    {
-      "name": "创维冷暖电器",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 33.52,
-        "roi": 2.6639386988552665,
-        "ctr": 3.068605593955796,
-        "cvr": 4.206941299262498,
-        "cpa": 296.2284600844746,
-        "tid": 0,
-        "days": 13
-      },
-      "h2": {
-        "cost_wan": 26.51,
-        "roi": 2.576915124449025,
-        "ctr": 2.1159074914504763,
-        "cvr": 3.3797677751945145,
-        "cpa": 297.90054235235675,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -7.01,
-      "delta_cost_pct": -20.9,
-      "delta_ctr": -0.95,
-      "delta_cvr": -0.83,
-      "delta_roi": -0.09,
-      "delta_cpa": 1.7
-    },
-    {
-      "name": "冠轩生活电器",
-      "stage": "跃迁阶段",
-      "h1": {
-        "cost_wan": 22.27,
-        "roi": 2.5909270255857133,
-        "ctr": 5.032146488921953,
-        "cvr": 5.166429267893071,
-        "cpa": 301.179924368205,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 1.37,
-        "roi": 2.4994297378548787,
-        "ctr": 3.369439939813754,
-        "cvr": 4.191589756240915,
-        "cpa": 305.468186485211,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -20.9,
-      "delta_cost_pct": -93.8,
-      "delta_ctr": -1.66,
-      "delta_cvr": -0.97,
-      "delta_roi": -0.09,
-      "delta_cpa": 4.3,
-      "reasons": [
-        "CTR 5.032146488921953% → 3.369439939813754%（-1.66pp），开头钩子衰减，需补强势钩子素材",
-        "浅层 CVR 5.166429267893071% → 4.191589756240915%（-0.97pp），承接环节出问题（话术/价格/库存/客服）"
-      ]
-    },
-    {
-      "name": "荣暖生活电器",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 14.07,
-        "roi": 3.495300707575358,
-        "ctr": 3.5031582168170297,
-        "cvr": 6.812326827944652,
-        "cpa": 99.07092460872643,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 43.26,
-        "roi": 3.5025802815446374,
-        "ctr": 3.992746549720963,
-        "cvr": 6.627735478907976,
-        "cpa": 99.03413585061718,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": 29.19,
-      "delta_cost_pct": 207.5,
-      "delta_ctr": 0.49,
-      "delta_cvr": -0.18,
-      "delta_roi": 0.01,
-      "delta_cpa": -0.0,
-      "reasons": [
-        "CTR 3.5031582168170297% → 3.992746549720963%（+0.49pp），开头钩子吃住了流量"
-      ]
-    },
-    {
-      "name": "康佳宁盈",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 76.16,
-        "roi": 2.2026822165777014,
-        "ctr": 2.6111582292081987,
-        "cvr": 3.4734959509892427,
-        "cpa": 159.3336416971377,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 62.39,
-        "roi": 2.230528018536112,
-        "ctr": 2.988474108568166,
-        "cvr": 3.695654725626999,
-        "cpa": 159.6898571721139,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -13.77,
-      "delta_cost_pct": -18.1,
-      "delta_ctr": 0.38,
-      "delta_cvr": 0.22,
-      "delta_roi": 0.03,
-      "delta_cpa": 0.4,
-      "reasons": [
-        "效率指标未明显恶化，主因为大盘流量/客户主动控量收缩"
-      ]
-    },
-    {
-      "name": "创维威宇电器",
-      "stage": "冷启动阶段",
-      "h1": {
-        "cost_wan": 1.63,
-        "roi": 1.1053985999186702,
-        "ctr": 4.038744663537769,
-        "cvr": 0.6215440554141399,
-        "cpa": 298.7311217344349,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 0.07,
-        "roi": 2.3456910072591493,
-        "ctr": 8.968647320396864,
-        "cvr": 0.2936136706133942,
-        "cpa": 169.0,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -1.56,
-      "delta_cost_pct": -95.7,
-      "delta_ctr": 4.93,
-      "delta_cvr": -0.33,
-      "delta_roi": 1.24,
-      "delta_cpa": -129.7
-    },
-    {
-      "name": "倍宠家用生活电器",
-      "stage": "头客阶段",
-      "h1": {
-        "cost_wan": 8.83,
-        "roi": 2.755343692212205,
-        "ctr": 2.451885253832227,
-        "cvr": 11.542628181856411,
-        "cpa": 398.9568352022086,
-        "tid": 0,
-        "days": 2
-      },
-      "h2": {
-        "cost_wan": 8.56,
-        "roi": 3.2178246917971576,
-        "ctr": 2.397731116816762,
-        "cvr": 10.761891348939798,
-        "cpa": 399.0,
-        "tid": 0,
-        "days": 6
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": -0.27,
-      "delta_cost_pct": -3.1,
-      "delta_ctr": -0.05,
-      "delta_cvr": -0.78,
-      "delta_roi": 0.46,
-      "delta_cpa": 0.0
     },
     {
       "name": "万奥美满家用电器",
@@ -17970,6 +17717,153 @@
       ]
     },
     {
+      "name": "倍宠家用生活电器",
+      "stage": "头客阶段",
+      "h1": {
+        "cost_wan": 8.83,
+        "roi": 2.755343692212205,
+        "ctr": 2.451885253832227,
+        "cvr": 11.542628181856411,
+        "cpa": 398.9568352022086,
+        "tid": 0,
+        "days": 2
+      },
+      "h2": {
+        "cost_wan": 8.56,
+        "roi": 3.2178246917971576,
+        "ctr": 2.397731116816762,
+        "cvr": 10.761891348939798,
+        "cpa": 399.0,
+        "tid": 0,
+        "days": 6
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -0.27,
+      "delta_cost_pct": -3.1,
+      "delta_ctr": -0.05,
+      "delta_cvr": -0.78,
+      "delta_roi": 0.46,
+      "delta_cpa": 0.0
+    },
+    {
+      "name": "康佳家用生活电器",
+      "stage": "头客阶段",
+      "h1": {
+        "cost_wan": 13.81,
+        "roi": 1.898712008264116,
+        "ctr": 3.797573047445052,
+        "cvr": 2.068308342106093,
+        "cpa": 197.32286255686722,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 25.69,
+        "roi": 2.209665695922361,
+        "ctr": 2.8715717588914558,
+        "cvr": 4.511893298298331,
+        "cpa": 159.08404298836666,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": 11.88,
+      "delta_cost_pct": 86.0,
+      "delta_ctr": -0.93,
+      "delta_cvr": 2.44,
+      "delta_roi": 0.31,
+      "delta_cpa": -38.2,
+      "reasons": [
+        "浅层 CVR 2.068308342106093% → 4.511893298298331%（+2.44pp），直播间承接/价格牌升级",
+        "ROI 由 1.898712008264116 上行至 2.209665695922361（+0.31），ROAS 健康，可继续加预算",
+        "下单单价 197.32286255686722 → 159.08404298836666（-38.2），获客成本下降，模型走稳"
+      ]
+    },
+    {
+      "name": "苏泊尔盾塑生活电器",
+      "stage": "头客阶段",
+      "h1": {
+        "cost_wan": 22.66,
+        "roi": 1.920987126313853,
+        "ctr": 2.4175361409504927,
+        "cvr": 8.020463772158653,
+        "cpa": 98.99907478098892,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 8.83,
+        "roi": 2.1150496484663392,
+        "ctr": 3.0858376974738992,
+        "cvr": 5.607095378484702,
+        "cpa": 99.10744012322304,
+        "tid": 0,
+        "days": 12
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -13.83,
+      "delta_cost_pct": -61.0,
+      "delta_ctr": 0.67,
+      "delta_cvr": -2.41,
+      "delta_roi": 0.19,
+      "delta_cpa": 0.1,
+      "reasons": [
+        "浅层 CVR 8.020463772158653% → 5.607095378484702%（-2.41pp），承接环节出问题（话术/价格/库存/客服）"
+      ]
+    },
+    {
+      "name": "康佳宁盈",
+      "stage": "头客阶段",
+      "h1": {
+        "cost_wan": 76.16,
+        "roi": 2.2026822165777014,
+        "ctr": 2.6111582292081987,
+        "cvr": 3.4734959509892427,
+        "cpa": 159.3336416971377,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 62.39,
+        "roi": 2.230528018536112,
+        "ctr": 2.988474108568166,
+        "cvr": 3.695654725626999,
+        "cpa": 159.6898571721139,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -13.77,
+      "delta_cost_pct": -18.1,
+      "delta_ctr": 0.38,
+      "delta_cvr": 0.22,
+      "delta_roi": 0.03,
+      "delta_cpa": 0.4,
+      "reasons": [
+        "效率指标未明显恶化，主因为大盘流量/客户主动控量收缩"
+      ]
+    },
+    {
       "name": "冠轩家用清洁电器",
       "stage": "头客阶段",
       "h1": {
@@ -18008,40 +17902,6 @@
       ]
     },
     {
-      "name": "美满生活电器",
-      "stage": "跃迁阶段",
-      "h1": {
-        "cost_wan": 0.85,
-        "roi": 4.1228810761350445,
-        "ctr": 4.665126057625966,
-        "cvr": 0.9848520182809066,
-        "cpa": 999.0,
-        "tid": 0,
-        "days": 14
-      },
-      "h2": {
-        "cost_wan": 4.2,
-        "roi": 4.114106889266506,
-        "ctr": 3.84105993944199,
-        "cvr": 0.8876305518603065,
-        "cpa": 998.9999999999999,
-        "tid": 0,
-        "days": 14
-      },
-      "acc_h1": null,
-      "acc_h2": null,
-      "delta_acc": null,
-      "tid_h1": null,
-      "tid_h2": null,
-      "delta_tid": null,
-      "delta_cost_wan": 3.35,
-      "delta_cost_pct": 394.1,
-      "delta_ctr": -0.82,
-      "delta_cvr": -0.1,
-      "delta_roi": -0.01,
-      "delta_cpa": -0.0
-    },
-    {
       "name": "美满净界个护电器",
       "stage": "头客阶段",
       "h1": {
@@ -18077,6 +17937,146 @@
       "reasons": [
         "上双周无数据（0.3 万），本双周消耗 187.6 万，属新增直播间消耗",
         "浅层 CVR 4.68537564005095% → 6.320260666209728%（+1.63pp），直播间承接/价格牌升级"
+      ]
+    },
+    {
+      "name": "美满随行生活电器",
+      "stage": "冷启动阶段",
+      "h1": {
+        "cost_wan": 1.01,
+        "roi": 4.316777820953047,
+        "ctr": 6.564056235886881,
+        "cvr": 3.6431988856353783,
+        "cpa": 98.9711282009776,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 1.04,
+        "roi": 4.2319449751624,
+        "ctr": 5.968025199970486,
+        "cvr": 4.287392108438205,
+        "cpa": 99.00000000000001,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": 0.03,
+      "delta_cost_pct": 3.0,
+      "delta_ctr": -0.6,
+      "delta_cvr": 0.64,
+      "delta_roi": -0.08,
+      "delta_cpa": 0.0
+    },
+    {
+      "name": "美满生活电器",
+      "stage": "跃迁阶段",
+      "h1": {
+        "cost_wan": 0.85,
+        "roi": 4.1228810761350445,
+        "ctr": 4.665126057625966,
+        "cvr": 0.9848520182809066,
+        "cpa": 999.0,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 4.2,
+        "roi": 4.114106889266506,
+        "ctr": 3.84105993944199,
+        "cvr": 0.8876305518603065,
+        "cpa": 998.9999999999999,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": 3.35,
+      "delta_cost_pct": 394.1,
+      "delta_ctr": -0.82,
+      "delta_cvr": -0.1,
+      "delta_roi": -0.01,
+      "delta_cpa": -0.0
+    },
+    {
+      "name": "创维冷暖电器",
+      "stage": "头客阶段",
+      "h1": {
+        "cost_wan": 33.52,
+        "roi": 2.6639386988552665,
+        "ctr": 3.068605593955796,
+        "cvr": 4.206941299262498,
+        "cpa": 296.2284600844746,
+        "tid": 0,
+        "days": 13
+      },
+      "h2": {
+        "cost_wan": 26.51,
+        "roi": 2.576915124449025,
+        "ctr": 2.1159074914504763,
+        "cvr": 3.3797677751945145,
+        "cpa": 297.90054235235675,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -7.01,
+      "delta_cost_pct": -20.9,
+      "delta_ctr": -0.95,
+      "delta_cvr": -0.83,
+      "delta_roi": -0.09,
+      "delta_cpa": 1.7
+    },
+    {
+      "name": "冠轩生活电器",
+      "stage": "跃迁阶段",
+      "h1": {
+        "cost_wan": 22.27,
+        "roi": 2.5909270255857133,
+        "ctr": 5.032146488921953,
+        "cvr": 5.166429267893071,
+        "cpa": 301.179924368205,
+        "tid": 0,
+        "days": 14
+      },
+      "h2": {
+        "cost_wan": 1.37,
+        "roi": 2.4994297378548787,
+        "ctr": 3.369439939813754,
+        "cvr": 4.191589756240915,
+        "cpa": 305.468186485211,
+        "tid": 0,
+        "days": 14
+      },
+      "acc_h1": null,
+      "acc_h2": null,
+      "delta_acc": null,
+      "tid_h1": null,
+      "tid_h2": null,
+      "delta_tid": null,
+      "delta_cost_wan": -20.9,
+      "delta_cost_pct": -93.8,
+      "delta_ctr": -1.66,
+      "delta_cvr": -0.97,
+      "delta_roi": -0.09,
+      "delta_cpa": 4.3,
+      "reasons": [
+        "CTR 5.032146488921953% → 3.369439939813754%（-1.66pp），开头钩子衰减，需补强势钩子素材",
+        "浅层 CVR 5.166429267893071% → 4.191589756240915%（-0.97pp），承接环节出问题（话术/价格/库存/客服）"
       ]
     }
   ],
